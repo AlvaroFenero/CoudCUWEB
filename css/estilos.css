@@ -675,3 +675,15 @@ body {
         */
     }
 }
+
+#ctaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: vh; /* Ajusta la altura del contenedor al 100% de la altura de la ventana */
+}
+
+#ctaContainer img {
+    width: 250px; /* Ajusta el ancho según sea necesario */
+    height: 250px; /* Ajusta la altura según sea necesario */
+}
