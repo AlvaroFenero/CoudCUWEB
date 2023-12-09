@@ -15,7 +15,7 @@ function showQrOrButton() {
     } else {
         // Es una computadora o un dispositivo móvil con ancho de ventana mayor a 768 pixels, mostrar el código QR
         var qrCode = document.createElement('img');
-        qrCode.src = '9sFd3p_qrcode.png'; // Reemplaza con la ruta a tu código QR
+        qrCode.src = 'qr.png'; // Reemplaza con la ruta a tu código QR
         qrCode.alt = 'Código QR';
         ctaContainer.appendChild(qrCode);
     }
