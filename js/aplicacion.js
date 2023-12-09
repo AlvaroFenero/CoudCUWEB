@@ -8,7 +8,7 @@ function showQrOrButton() {
     if (isMobileDevice() && window.innerWidth <= 768) {
         // Es un dispositivo móvil con ancho de ventana menor o igual a 768 pixels, mostrar el botón de descarga
         var downloadButton = document.createElement('a');
-        downloadButton.href = 'https://m.apkpure.com/es/mediafire/com.mediafire.android'; // Reemplaza con la ruta de descarga de tu aplicación
+        downloadButton.href = 'https://alvarofenero.github.io/CoudCUWEB/coudcufinal-main-0f478a-release.apk'; 
         downloadButton.className = 'cta';
         downloadButton.textContent = 'Descargar App';
         ctaContainer.appendChild(downloadButton);
